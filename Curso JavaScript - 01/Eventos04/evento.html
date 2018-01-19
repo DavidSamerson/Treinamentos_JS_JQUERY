@@ -14,8 +14,15 @@
             margin: 20px auto;
         }
     </style>
+    <script type="text/javascript">
+    function ligar() {
+         window.document.getElementById("xti").src="manicure2.png";
+
+    }
+    </script>
 </head>
-<body>
-    
+<body onload="alert('Carregando...');">
+    <img src="manicure.png" id="xti" alt="Manicure" onclick="alert('Alterando Imagem');ligar();" onmouseover="alert('Passando por cima!');">
+
 </body>
 </html>
