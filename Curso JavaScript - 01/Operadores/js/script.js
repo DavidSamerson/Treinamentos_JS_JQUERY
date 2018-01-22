@@ -10,3 +10,7 @@
 
  var x = 9 + "4"; //concatena
  alert(x);
+
+ //Operadores Matemáticos
+
+ 
