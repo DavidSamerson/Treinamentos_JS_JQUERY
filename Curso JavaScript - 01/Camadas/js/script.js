@@ -1,6 +1,16 @@
+/* Função A
+ * Faz: isso
+ * Resolve: Aquilo
+ * Descrição: abcde
+ */
+
+
+
 function ligar() {
 
     var nome = "David Samerson";
+    var nomeDigitado = window.prompt("Qual o seu nome?");
+    alert("Prazer em conhecer você" + nomeDigitado);
     var nomeComAspas = "David\"Samerson";
     var nomeComBarra = "David\\Samerson";
     var nomeUnicode = "David Samerson \U+009F";
