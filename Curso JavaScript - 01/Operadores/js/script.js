@@ -12,5 +12,6 @@
  alert(x);
 
  //Operadores Matemáticos
+ //Tenho que comitar hoje
 
  
