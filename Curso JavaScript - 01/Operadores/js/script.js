@@ -11,6 +11,13 @@
  var x = 9 + "4"; //concatena
  alert(x);
 
+
+ var x = 7;
+ alert((x >= 1) && (x <= 10));
+ alert((x >= 1) || (x <= 10));
+ alert(!(x >= 1));
+
+
  //Operadores Matemáticos
  //Tenho que comitar hoje
 
