@@ -33,6 +33,9 @@
  alert("nome" in pessoa);
 
 
+ var idade = new Number(31);
+alert(idade instanceof Number);
+
 
  //Operadores Matemáticos
  //Tenho que comitar hoje
