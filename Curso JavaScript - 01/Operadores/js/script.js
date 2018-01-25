@@ -17,6 +17,8 @@
  alert((x >= 1) || (x <= 10));
  alert(!(x >= 1));
 
+ X += 3;
+
  //Operadores de atribuição
 
 
