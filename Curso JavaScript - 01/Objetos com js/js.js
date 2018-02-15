@@ -30,3 +30,12 @@ alert(Number.POSITIVE_INFINITY);
 alert (s.toPrecision());// notação cientifica caso o numero citado seja menor que o numero de casas.
 alert(s.toExponential()); // notação cientifica obrigatoriamente baseado no numero de casas.
 alert(s.toFixed()); // numero de casas depois da virgula.
+
+
+/////////////////////////////////////////////////////
+//String
+
+var X = new String("Text Dentro de aspas");
+alert("x");
+
+document.write(x);// método que escreve no documento html.
