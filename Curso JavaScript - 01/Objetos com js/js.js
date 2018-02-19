@@ -38,4 +38,5 @@ alert(s.toFixed()); // numero de casas depois da virgula.
 var X = new String("Text Dentro de aspas");
 alert("x");
 
-document.write(x);// método que escreve no documento html.
+document.write(x);// método que escreve no documento html. não recomendado.
+
