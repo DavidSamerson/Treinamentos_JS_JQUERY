@@ -7,7 +7,7 @@ body {
       height:400px;
       background:gray;
       margin:50px auto;
-      -webkit-animation:bgChange 2s 2s alternate infinite;
+      -webkit-animation: bgChange 2s 2s alternate infinite;
       transition: all 2s ease;
   }
   
@@ -178,4 +178,11 @@ body {
       100% {
           background:#399cb9;
       }
+  }
+
+  .rodape {
+    margin-top: 5%;
+    text-align: center;
+    font-family: cursive;
+    padding: 50px;
   }
