@@ -8,46 +8,48 @@
     <link rel="stylesheet" href="estilizacaoPrincipal.css">
 </head>
 <body>
-    <div id="background"><!-- Main background -->
-             
-        <div id="result"></div>
-             
+    <div name="background" id="background"><!-- Main background -->
+        
+        <form name="form">
+        <input type="text" name="result" id="result" />
+        </form>     
+        
          <div id="main">
              <div id="first-rows">
               <button class="del-bg" id="delete">Del</button>
-                 <button value="%" class="btn-style operator opera-bg fall-back">%</button>
-                 <button value="+" class="btn-style opera-bg value align operator">+</button>
+                 <button value="%" class="btn-style operator opera-bg fall-back" onclick="botao( value );">%</button>
+                 <button value="+" class="btn-style opera-bg value align operator" onclick="botao( value );">+</button>
                  </div>
                  
                <div class="rows">
-             <button value="7" class="btn-style num-bg num first-child">7</button>
-                 <button value="8" class="btn-style num-bg num">8</button>
-                 <button value="9" class="btn-style num-bg num">9</button>
-                 <button value="-" class="btn-style opera-bg operator">-</button>
+             <button value="7" class="btn-style num-bg num first-child" onclick="botao( value );">7</button>
+                 <button value="8" class="btn-style num-bg num" onclick="botao( value );">8</button>
+                 <button value="9" class="btn-style num-bg num" onclick="botao( value );">9</button>
+                 <button value="-" class="btn-style opera-bg operator" onclick="botao( value );">-</button>
                  </div>
                  
                  <div class="rows">
-                 <button value="4" class="btn-style num-bg num first-child">4</button>
-                 <button value="5" class="btn-style num-bg num">5</button>
-                 <button value="6" class="btn-style num-bg num">6</button>
-                 <button value="*" class="btn-style opera-bg operator">x</button>
+                 <button value="4" class="btn-style num-bg num first-child" onclick="botao( value );">4</button>
+                 <button value="5" class="btn-style num-bg num"onclick="botao( value );">5</button>
+                 <button value="6" class="btn-style num-bg num" onclick="botao( value );">6</button>
+                 <button value="*" class="btn-style opera-bg operator" onclick="botao( value );">x</button>
                  </div>
                  
                  <div class="rows">
-                 <button value="1" class="btn-style num-bg num first-child">1</button>
-                 <button value="2" class="btn-style num-bg num">2</button>
-                 <button value="3" class="btn-style num-bg num">3</button>
-                 <button value="/" class="btn-style opera-bg operator">/</button>
+                 <button value="1" class="btn-style num-bg num first-child" onclick="botao( value );">1</button>
+                 <button value="2" class="btn-style num-bg num" onclick="botao( value );">2</button>
+                 <button value="3" class="btn-style num-bg num" onclick="botao( value );">3</button>
+                 <button value="/" class="btn-style opera-bg operator" onclick="botao( value );">/</button>
                  </div>
                  
                  <div class="rows">
-                 <button value="0" class="num-bg zero" id="delete">0</button>
-                 <button value="." class="btn-style num-bg period fall-back">.</button>
-                 <button value="=" id="eqn-bg" class="eqn align">=</button>
+                 <button value="0" class="num-bg zero" id="delete" onclick="botao( value );">0</button>
+                 <button value="." class="btn-style num-bg period fall-back" onclick="botao( value );">.</button>
+                 <button value="=" id="eqn-bg" class="eqn align" oncluck="calcule();">=</button>
                  </div>
                 
              </div>
-             
+           
              <div class="rodape">
                 David Samerson de Sousa Castilho
              </div>
