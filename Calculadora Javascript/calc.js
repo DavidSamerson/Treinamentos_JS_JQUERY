@@ -7,19 +7,19 @@ function botao( num ){
 
 function reset(){
 
-    document.calc.visor.value = "";
+    document.form.result.value = "";
 
 }
 
 function calcule(){
 
     //Pegar o valor da variavel
-    var salvo = document.body.result.value;
+    var salvo = document.form.result.value;
 
     //Fazer o cálculo EVAL
     var resultado = eval(salvo);
 
     //Pegar o resultado e colocar no visor
-    document.body.result.value = resultado;
+    document.form.result.value = resultado;
 
 }

@@ -16,7 +16,7 @@
         
          <div id="main">
              <div id="first-rows">
-              <button class="del-bg" id="delete">Del</button>
+              <button class="del-bg" id="delete" onclick="reset();">Limpar</button>
                  <button value="%" class="btn-style operator opera-bg fall-back" onclick="botao( value );">%</button>
                  <button value="+" class="btn-style opera-bg value align operator" onclick="botao( value );">+</button>
                  </div>
@@ -45,7 +45,7 @@
                  <div class="rows">
                  <button value="0" class="num-bg zero" id="delete" onclick="botao( value );">0</button>
                  <button value="." class="btn-style num-bg period fall-back" onclick="botao( value );">.</button>
-                 <button value="=" id="eqn-bg" class="eqn align" oncluck="calcule();">=</button>
+                 <button value="=" id="eqn-bg" class="eqn align" onclick="calcule();">=</button>
                  </div>
                 
              </div>
