@@ -8,6 +8,6 @@ function carregarProgramas(){
     for (var i = 0; i < imagens.length; i++){
 
         imagens[i].src = "poltrona_disponivel.png";
-        
+
     }
 }
