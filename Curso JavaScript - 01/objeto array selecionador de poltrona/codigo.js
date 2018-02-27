@@ -1,13 +1,19 @@
 
 var poltronas = [false, true, false, true, true, true, false, true, false];
 
-function carregarProgramas(){
+window.onload = function () { carregarPoltronas(); };
 
-    var imagens = getElementByTagName("img");
+function carregarPoltronas(){
+
+    var imagens = document.getElementsByTagName("img");
 
     for (var i = 0; i < imagens.length; i++){
 
-        imagens[i].src = "poltrona_disponivel.png";
-
+        if(poltronas[i]) {
+            imagens[i].src = "poltrona_disponivel.png";
+        }
+        else{
+            imagens[i].src = "poltrona_indisponivel.png";
+        }
     }
 }
